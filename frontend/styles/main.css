@@ -1,0 +1,295 @@
+body {
+    background-color: #E07272;
+}
+
+.navbar-brand {
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 63px;
+}
+
+.navbar {
+    background-color: #f0c1c1;
+}
+
+.nav-item {
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.nav-item .nav-link.active {
+    font-weight: 600;
+    color: #fc0000 !important;
+}
+
+.nav-link {
+    color: #000 !important;
+}
+
+.nav-link:hover {
+    color: #fc0000 !important;
+}
+
+/* Popular Update */
+.section-title {
+    margin-top: 80px;
+    border-bottom: 2px solid #b81414;
+    width: 1110px;
+    left: 10px
+}
+
+.popular-updates {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: rgba(23, 25, 56, 0.06);
+}
+
+.component-updates {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #E07272;
+    border-radius: 8px;
+    border: #000;
+    padding-bottom: 15px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.component-updates:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.updates-img {
+    padding: 0.5rem;
+    border-radius: 8px 8px;
+    background: #E07272;
+
+    transition: all 0.3s ease;
+}
+
+.updates-text {
+    font-family: 'Alice';
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #1e1e1e;
+}
+
+/* Tutup Popular Update */
+
+/* Latest Releases */
+.section-title {
+    margin-top: 80px;
+    border-bottom: 2px solid #b81414;
+    width: 1110px;
+    left: 10px
+}
+
+.latest-releases {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #E07272(23, 25, 56, 0.06);
+}
+
+.component-latest {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #E07272;
+    border-radius: 8px;
+    border: #000;
+    padding-bottom: 15px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.component-latest:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.latest-img {
+    padding: 0.5rem;
+    border-radius: 8px 8px;
+    background: #E07272;
+
+    transition: all 0.3s ease;
+}
+
+.latest-text {
+    font-family: 'Alice';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.genre {
+    font-family: 'Inter';
+    font-size: 17px;
+    text-align: center;
+    color: grey;
+}
+
+.btn-latest {
+    background-color: #b81414;
+
+    width: 700px;
+    height: 50px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    text-align: center;
+    color: white;
+
+    transition: all 0.5s ease;
+}
+
+.btn-testimonial:hover {
+    box-shadow: 0px 20px 25px rgba(50, 82, 223, 0.3);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+/* Tutup Latest Releases */
+
+/* Rekomendasi */
+.section-title {
+    margin-top: 80px;
+    border-bottom: 2px solid #b81414;
+    width: 1110px;
+    left: 10px
+}
+
+.rekomendasi {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: rgba(23, 25, 56, 0.06);
+}
+
+.component-rekomendasi {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #E07272;
+    border-radius: 8px;
+    border: #000;
+    padding-bottom: 15px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.component-rekomendasi:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.rekomendasi-img {
+    padding: 0.5rem;
+    border-radius: 8px 8px;
+    background: #E07272;
+
+    transition: all 0.3s ease;
+}
+
+.rekomendasi-text {
+    font-family: 'Alice';
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #1e1e1e;
+}
+/* Tutup Rekomendasi */
+
+/* Comments */
+.section-title {
+    margin-top: 55px;
+    border-bottom: 2px solid #b81414;
+    width: 1110px;
+    left: 10px
+}
+
+.comments {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #E07272(23, 25, 56, 0.06);
+}
+
+.textarea {
+    width: 100%;
+    padding: 1rem 0.08rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: 0;
+    transition: border 0.15s;
+}
+
+.comments-section textarea {
+    margin-top: 25px;
+    resize: vertical;
+}
+/* Tutup Comments */
+
+/* Footer */
+.footer {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f0c1c1;
+}
+
+.footer h1 {
+    font-family: 'Alice';
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.footer h2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.nama-ikon {
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    float: right;
+}
+
+.footer-small {
+    background-color: grey;
+    text-align: center;
+}
+
+.footer-small p {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+
+    margin-top: 30px;
+
+    color: #000;
+}
+
+.footer-small a {
+    font-family: 'Alice';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #b81414;
+}
+/* Tutup Footer */
